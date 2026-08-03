@@ -1,0 +1,33 @@
+* {
+    margin: .5rem;
+    padding: .5rem;
+}
+
+html {
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #dde3e7;
+    padding: 2rem;
+}
+
+main {
+    display: grid;
+    gap: 2rem;
+}
+
+.episodes ol {
+    list-style: none;
+    padding: 0;
+}
+
+.episodes li {
+    padding: 1rem;
+}   
+
+.details {
+    display: flex;
+    gap: 1rem;
+}
